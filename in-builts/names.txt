@@ -1,0 +1,67 @@
+abs() - returns the absolute value
+*aiter()
+all() - returns True if ALL elements are true
+*anext()
+any() - returns True if ANY element is true
+ascii() - return a string __repr__, with only ASCII chars
+bin() - converts an int into a binary representation (with prefix - 0b)
+bool() - returns a boolean
+breakpoint() - sets a breakpoint and launches the python debugger !!
+bytearray() - return a BYTEARRAY datatype (an array based on the encoding)
+bytes() - return a byte object ???
+callable() - returns True if an object seems callable
+chr() - returns the ascii unicode value base on an int input
+classmethod() - @classmethod used to convert a method into a classmethod
+compile() - compiles a piece of code (goes deeper than that)
+complex() - converts an number into a string representaetion or the other way around *learn about complex numbers
+delattr() - sets a value of an instance
+dict() - creates a dictionaty (a dict object)
+dir() - if no arguments: returns the list of names in current scope; if agrument: returns a list of argument attributes
+divmod() - takes two non-comlex numbers and returns ({floordiv}, {remainder})
+enumerate() - iterates over an iterable and returns an object - a list of tuples ({index}, {value}) (must be iterated over)
+eval() - exectues an expression written in string format
+exec() - executes either a string object or a compiled object
+filter() - creates an iterator by filtering through an iterable using a function
+float() - returns a floating point number
+format() - returns a formated value by the provided spec(format spec mini-language)
+frozenset() - takes an itereable and returns a fozenset(unchangable) set object
+getattr() - gets and returns a specified attribute from a speified object
+globals() - returns all global attributes 
+hasattr() - returns a boolean : True if object has the attribute
+hash() - returns the hash value of an object
+help() - launches the python help system
+hex() - prints the hexidecimal representation of an int
+id() - the adress of the object in memory
+input() - uses an inout prompt and allows user to input a value from the command line
+int() - returns an int
+isinstance()
+issubclass()
+iter()
+len()
+list() - can list a generator
+locals()
+map()
+max()
+memoryview()
+min()
+next()
+object()
+oct()
+open()
+ord()
+pow()
+print()
+property()
+range()
+repr()
+reversed()
+sorted()
+staticmethod()
+str()
+sum()
+super()
+tuple()
+type()
+vars()
+zip()
+__import__()

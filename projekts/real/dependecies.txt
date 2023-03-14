@@ -1,0 +1,3 @@
+requests
+python -m pip install beautifulsoup4
+nltk

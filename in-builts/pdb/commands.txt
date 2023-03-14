@@ -1,0 +1,22 @@
+n         execute next line and stop at next line
+s         execute the next line and step into function call
+c         continue execution until breakpoint or end
+
+l         list 5 lines before and after current line
+ll        lists the current scope of execution (a function , or the whole module)
+
+b            show list of all breakpoints
+b [int]      set breakpoint at a specified line (eg. b10)
+b [func]     break at function name
+disable[num] disable breakpoint with the number [num]
+enable[num]  enable breakpoint with the number [num]
+
+cl        clear all breaking points
+cl[int]   clear breaking point at line...
+
+p         print
+pp        pretty print - formats the output
+
+
+
+q         quit

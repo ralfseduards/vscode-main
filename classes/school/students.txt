@@ -1,0 +1,4 @@
+->First Boy['Physics', 'Math']
+->Second Boy['Crafts', 'Music']
+->Third Boy['Art', 'Chemisty']
+->Fourth Boy['Python', 'Latin']
