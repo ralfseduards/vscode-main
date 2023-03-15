@@ -1,0 +1,27 @@
+*       0 or more characters
++       1 or more characters
+.       any character
+?       0 or 1 characters (basically optional)
+^       matches the start of the string
+$       matches the end of the string
+[]      used to specify allowed chars ([^] used to specify disallowed chars)
+{}      used to specify the amount of chars
+{m-n}   used to specify the range of repetitions
+(...)   a group (also used to capture items)
+(?:...) non-capturing version (used to just group items)
+A|B     A or B
+
+\w      alphanumeric + underscore
+\d      decimal digit
+\s      whitespace character
+\W      NOT alohanumeric + underscore
+\D      NOT a decimal digit
+\S      NOT a whitespace
+
+
+Matching returns a tuple , but MATCH object needs to be unpacked using ".groups()". group(int) starts counting from 1 
+Methods:
+.search()
+.match()
+.fullmatch()
+.sub()

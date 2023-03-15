@@ -22,3 +22,13 @@ print(hex(69))
 print(id(boy))
 
 print(isinstance(boy, Guys))
+
+print(locals() == globals())
+
+guy = object()
+print(dir(guy))
+
+print(oct(69))
+print(format(69, "o"))
+
+print(ord("a"))

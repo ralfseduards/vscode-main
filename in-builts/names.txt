@@ -34,24 +34,24 @@ hex() - prints the hexidecimal representation of an int
 id() - the adress of the object in memory
 input() - uses an inout prompt and allows user to input a value from the command line
 int() - returns an int
-isinstance()
-issubclass()
-iter()
-len()
-list() - can list a generator
-locals()
-map()
-max()
-memoryview()
-min()
-next()
-object()
-oct()
-open()
-ord()
-pow()
-print()
-property()
+isinstance() - returns True if an object is an instance of the class
+issubclass() - returns True if a class is a subclass of the class
+iter() - returns an iterator object (a sentinel can be added as the second argument which alters the iterator creation)
+len() - returns the length of an object (the amount of items)
+list() - can list a generator / returns a mutable sequence type
+locals() - returns the locals in a scope (on <module> scope locals() == globals())
+map() - returns an iterator, with a function mapped to each iteration of an iterable
+max() - returns the largest value in an iterable or between two values
+memoryview() - returns a "memoryview" object (the memory location)
+min() - returns the smallest value in an itereable or between two values
+next() - retrieves the next object of a specified itereator (calls the __next__() function)
+object() - returns a new featureless object 
+oct() - converts an integer into an octal string represenation
+open() - used to open a file in a specified mode and return a file object (has a lot of kwargs)
+ord() - takes one unicode character and returns its position as a Unicode character
+pow() - exponential
+print() - prints objects to the text stream file
+property() - returns a property atribute
 range()
 repr()
 reversed()
