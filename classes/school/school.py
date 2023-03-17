@@ -103,7 +103,7 @@ class Student(School):
             self.majors = major
 
         # maybe get it into the superclass??
-        with open("/Users/ralfseduards/python/classes/school/students.txt", "r+") as f:
+        with open("/Users/ralfseduards/vscode-main/classes/school/students.txt", "r+") as f:
             lines = f.read()
             student_in = True if self.fullname in lines else False
             if not student_in:
@@ -181,5 +181,3 @@ andzis = Staff("Math", "Andzis", "teacher", "12345678")
 # print(andzis.email)
 # andzis.set_email()
 # print(andzis.email)
-
-print(School.__dict__)
