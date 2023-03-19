@@ -22,6 +22,7 @@ print(hex(69))
 print(id(boy))
 
 print(isinstance(boy, Guys))
+print(isinstance("BA", str))
 
 print(locals() == globals())
 
@@ -32,3 +33,15 @@ print(oct(69))
 print(format(69, "o"))
 
 print(ord("a"))
+
+setattr(Guys, "girl", "her")
+print(Guys.girl)
+
+print(slice(9))
+print(vars(Guys))
+
+
+for item in zip([1,2,3], ["one" , "two" , "three"]):
+    print(item)
+
+

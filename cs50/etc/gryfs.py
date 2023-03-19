@@ -1,12 +1,6 @@
-students = [
-    {"name" : "harry", "house" : "gryfindor"},
-    {"name" : "hermione", "house" : "gryfindor"},
-    {"name" : "ron", "house" : "gryfindor"},
-    {"name" : "draco", "house" : "slytherin"},
-]
+students = ["hermione" , "harry" , "ron"]
 
-gryfindors = [
-    student["name"] for student in students if student["house"] == "gryfindor"
-]
+gryfindors = {student : "gyrfindor" for student in students} 
+
 
 print(gryfindors)

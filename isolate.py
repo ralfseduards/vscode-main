@@ -1,12 +1,9 @@
 import yfinance as yf
+import datetime
 
 
-ticker = "AAPl"
 
-data = yf.Ticker(ticker)
+aapl = yf.Ticker("AAPL").history(start = "2023-03-01", end= datetime.date.today(), interval="1d").at[str(datetime.date.today()), "Close"]
+print(aapl)
 
-
-dataframe = data.history(period='5d', interval = "1h")
-
-print(dataframe)
-# print(data.info)
+# print(datetime.date.today())

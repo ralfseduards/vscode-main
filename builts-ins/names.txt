@@ -52,16 +52,19 @@ ord() - takes one unicode character and returns its position as a Unicode charac
 pow() - exponential
 print() - prints objects to the text stream file
 property() - returns a property atribute
-range()
-repr()
-reversed()
-sorted()
-staticmethod()
-str()
-sum()
-super()
-tuple()
-type()
-vars()
-zip()
-__import__()
+range() - return an immutable range sequence type
+repr() - returns the more technical version of print
+reversed() - returns a reverse iterator
+round() - rounds a float to the closest int (if .5 -> rounds to the even int)
+set() - returns a set object
+setattr() - takes object, name, value and makes a new attribute to the object
+slice() - returns a slice object??
+sorted() - returns an iterable that is sorted by key
+staticmethod() - makes a method static
+str() - returns a str object
+sum() - sums all items in an itereable
+super() - references the parent class of a class
+tuple() - returns a tuple object
+type() - returns the type of the object (isinstance)
+vars() - a less verbose version of dir
+zip() - iterates over several iterables at once (returns an iterator of tuples) (useful with matrices!)
